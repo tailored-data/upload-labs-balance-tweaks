@@ -1,0 +1,54 @@
+{
+	"name": "BalanceTweaks",
+	"namespace": "Taylor",
+	"version_number": "1.0.0",
+	"description": "Configurable balance tweaks for Upload Labs: boost duration and cost, perk cost, and upgrade cost multipliers.",
+	"website_url": "https://github.com/taylorburks/upload-labs-balance-tweaks",
+	"dependencies": [],
+	"extra": {
+		"godot": {
+			"authors": ["Taylor"],
+			"compatible_game_version": ["2.2.12"],
+			"compatible_mod_loader_version": ["7.0.1"],
+			"incompatibilities": [],
+			"config_schema": {
+				"title": "Balance Tweaks",
+				"type": "object",
+				"properties": {
+					"boost_duration_multiplier": {
+						"title": "Boost duration multiplier",
+						"description": "Multiplies how long boosts last. 2.0 = boosts last twice as long.",
+						"type": "number",
+						"default": 2.0,
+						"minimum": 0.1,
+						"maximum": 20.0
+					},
+					"boost_cost_multiplier": {
+						"title": "Boost cost multiplier",
+						"description": "Multiplies the cost of boosts. 0.75 = boosts are 25% cheaper.",
+						"type": "number",
+						"default": 0.75,
+						"minimum": 0.05,
+						"maximum": 10.0
+					},
+					"perk_cost_multiplier": {
+						"title": "Perk cost multiplier",
+						"description": "Multiplies the token cost of perks. 1.0 = unchanged.",
+						"type": "number",
+						"default": 1.0,
+						"minimum": 0.05,
+						"maximum": 10.0
+					},
+					"upgrade_cost_multiplier": {
+						"title": "Upgrade cost multiplier",
+						"description": "Multiplies the base cost of upgrades. 0.9 = upgrades are 10% cheaper.",
+						"type": "number",
+						"default": 0.9,
+						"minimum": 0.05,
+						"maximum": 10.0
+					}
+				}
+			}
+		}
+	}
+}
