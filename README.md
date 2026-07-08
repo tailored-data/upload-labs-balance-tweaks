@@ -1,5 +1,10 @@
 # Upload Labs — Balance Tweaks
 
+> **⚠️ Superseded.** This proof-of-concept mod has been replaced by
+> [**Node Pins**](https://github.com/tailored-data/upload-labs-node-pins),
+> which adds pinnable on-screen nodes unlocked through a token-cost upgrade.
+> This repository is archived and will not receive updates.
+
 A configurable balance mod for [Upload Labs](https://store.steampowered.com/app/3606890/Upload_Labs/), built on the [Godot Mod Loader](https://wiki.godotmodding.com/) (which ships inside the game).
 
 ## What it does
