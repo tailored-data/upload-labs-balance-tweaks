@@ -3,7 +3,7 @@
 	"namespace": "Taylor",
 	"version_number": "1.0.0",
 	"description": "Configurable balance tweaks for Upload Labs: boost duration and cost, perk cost, and upgrade cost multipliers.",
-	"website_url": "https://github.com/taylorburks/upload-labs-balance-tweaks",
+	"website_url": "https://github.com/tailored-data/upload-labs-balance-tweaks",
 	"dependencies": [],
 	"extra": {
 		"godot": {
